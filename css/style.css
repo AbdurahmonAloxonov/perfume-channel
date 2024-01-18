@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+ul , ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+     height: 100%;
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f2eae2;
+}
+
+
+
+h2 {
+    font-family: 'Fraunces', sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    width: 600px;
+    border-radius:10px ;
+
+}
+.card__image {
+border-radius: 10px 0 0 10px;
+}
+.card__content {
+    padding: 32px;
+}
+.card__label {
+    margin-bottom:20px ;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.card__title {
+    color: #1C232B;
+    margin-bottom:24px ;
+    font-size: 32px;
+    line-height: 32px;
+}
+.card__description {margin-bottom: 29px;
+}
+.card__prices {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.card__big-prices {
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #3D8168;
+
+}
+.card__mini-pirces {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    color: #6C7289;
+    text-decoration: line-through;
+}
+.card__btn {
+    width: 100%;
+    padding: 16px 0;
+    border-radius:8px;
+    background-color: #3D8168;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.card__label {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+
+}
+
+.card__btn:hover {
+    background-color: #1A4032;
+}
